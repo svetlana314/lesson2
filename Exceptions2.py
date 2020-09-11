@@ -9,7 +9,8 @@ def discounted(price, discount, max_discount=20):
         else:
             return price - (price * discount / 100)
     
-try:
-    print(discounted('ss',10))    
-except ValueError:
-    print('Введены некорректные данные')
+if __name__ == "__main__":
+    try:
+        print(discounted('ss',10))    
+    except ValueError:
+        print('Введены некорректные данные')

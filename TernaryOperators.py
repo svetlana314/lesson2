@@ -16,5 +16,6 @@ def occupation(age):
     else:
         return 'You are retired.'
 
-a = occupation(age)
-print(a)
+if __name__ == "__main__":
+    a = occupation(age)
+    print(a)

@@ -16,8 +16,9 @@ def comparison(line1, line2):
     else:
         return 0
 
-print(comparison(1254,0.327))
-print(comparison('merci', 'merci'))
-print(comparison('checkingline1','line2'))
-print(comparison('you','learn'))
-print(comparison('no','result'))
+if __name__ == "__main__":
+    print(comparison(1254,0.327))
+    print(comparison('merci', 'merci'))
+    print(comparison('checkingline1','line2'))
+    print(comparison('you','learn'))
+    print(comparison('no','result'))

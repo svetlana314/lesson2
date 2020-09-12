@@ -10,7 +10,6 @@ def main():
     students_number = 0
 
     for every_class in school:
-        #print(every_class['school_class'], sum(every_class['scores'])/len(every_class['scores']))
         scores_sum_class = 0
         for score in every_class['scores']:
             scores_sum_class += score
